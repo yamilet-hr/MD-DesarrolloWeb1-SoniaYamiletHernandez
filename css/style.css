@@ -1,5 +1,5 @@
 #nombrenegocio{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Rubik Iso', cursive;
     color: violet;
     padding-right: 4%;
     padding-left: 1%;
@@ -7,6 +7,42 @@
 .btn{
     background: violet;
 }
-a, a.nav-link{
+ a,a.nav-link{
     color: violet;
+    font-family: 'Rubik Iso', cursive;
+
+
+
 }
+h5, p, h2, h3{
+    color: rgb(147, 28, 158);
+    font-family: 'Rubik Iso', cursive;}
+#myCarousel{
+    width:             70%;
+    margin: 0 auto;
+
+}
+body{
+
+
+background-color: rgba(184, 44, 197, 0.479);}
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+
+
