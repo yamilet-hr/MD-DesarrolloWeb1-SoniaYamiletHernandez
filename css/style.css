@@ -1,0 +1,12 @@
+#nombrenegocio{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: violet;
+    padding-right: 4%;
+    padding-left: 1%;
+}
+.btn{
+    background: violet;
+}
+a, a.nav-link{
+    color: violet;
+}
